@@ -22,5 +22,5 @@ for mac in "$IN_PATH/"*.xml; do
     mac=`basename "$mac"`
     template=`basename "$template"`
 
-    printf -- "-\n  mac: \"%s\"\n  name: \"%s\"\n  template: \"%s\"\n" "$mac" "$name" "$template" >> "$OUT_FILE"
+    printf -- "- mac: \"%s\"\n  name: \"%s\"\n  template: \"%s\"\n" "$mac" "$name" "$template" >> "$OUT_FILE"
 done

@@ -1,0 +1,40 @@
+<Profile>
+ <ProfileSettings>
+  <Name>2020011500-teacher</Name>
+  <RegistryRoot>root</RegistryRoot>
+  <Target>
+   <Hardware>t430</Hardware>
+   <ImageId>T7X71018</ImageId>
+   <Version>7.1.0</Version>
+   <Config>zero</Config>
+  </Target>
+ </ProfileSettings>
+ <ProfileRegistry>
+  <ManticoreReg>
+   <Namespace name="root">
+    <NodeDir name="root">
+     <NodeDir name="boot">
+      <NodeKey name="extraCmdline">
+       <NodeParam name="value">video=HDMI-A-2:1920x1080D drm_kms_helper.edid_firmware=HDMI-A-2:edid/1920x1080.bin</NodeParam>
+       <NodeParam name="type">string</NodeParam>
+      </NodeKey>
+     </NodeDir>
+     <NodeDir name="desktop">
+      <NodeDir name="shortcuts">
+       <NodeDir name="{42ea71a3-29d5-4a68-a13c-f752cfc31e73}">
+        <NodeKey name="command">
+         <NodeParam name="value">/usr/local/bin/toggle-display-mode</NodeParam>
+         <NodeParam name="type">string</NodeParam>
+        </NodeKey>
+        <NodeKey name="shortcut">
+         <NodeParam name="value">Meta+P</NodeParam>
+         <NodeParam name="type">string</NodeParam>
+        </NodeKey>
+       </NodeDir>
+      </NodeDir>
+     </NodeDir>
+    </NodeDir>
+   </Namespace>
+  </ManticoreReg>
+ </ProfileRegistry>
+</Profile>

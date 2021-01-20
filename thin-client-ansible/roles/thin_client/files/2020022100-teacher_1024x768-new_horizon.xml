@@ -1,0 +1,134 @@
+<Profile>
+ <ProfileSettings>
+  <Name>2020022100-teacher-new_horizon</Name>
+  <RegistryRoot>root</RegistryRoot>
+  <Target>
+   <Hardware>t430</Hardware>
+   <ImageId>T7X71018</ImageId>
+   <Version>7.1.0</Version>
+   <Config>standard</Config>
+  </Target>
+ </ProfileSettings>
+ <ProfileRegistry>
+  <ManticoreReg>
+   <Namespace name="root">
+    <NodeDir name="root">
+     <NodeDir name="boot">
+      <NodeKey name="extraCmdline">
+       <NodeParam name="value">video=HDMI-A-2:1024x768D drm_kms_helper.edid_firmware=HDMI-A-2:edid/1024x768.bin</NodeParam>
+       <NodeParam name="type">string</NodeParam>
+      </NodeKey>
+     </NodeDir>
+     <NodeDir name="desktop">
+      <NodeDir name="shortcuts">
+       <NodeDir name="{42ea71a3-29d5-4a68-a13c-f752cfc31e73}">
+        <NodeKey name="command">
+         <NodeParam name="value">/usr/local/bin/toggle-display-mode</NodeParam>
+         <NodeParam name="type">string</NodeParam>
+        </NodeKey>
+        <NodeKey name="shortcut">
+         <NodeParam name="value">Meta+P</NodeParam>
+         <NodeParam name="type">string</NodeParam>
+        </NodeKey>
+       </NodeDir>
+      </NodeDir>
+     </NodeDir>
+     <NodeDir name="ConnectionType">
+      <NodeDir name="view">
+       <NodeDir name="connections">
+        <NodeDir name="{ad4c1a43-dc2d-4f8f-bc1f-fa3166119c6f}">
+         <NodeKey name="autoReconnect">
+          <NodeParam name="value">0</NodeParam>
+          <NodeParam name="type">bool</NodeParam>
+         </NodeKey>
+         <NodeKey name="autostart">
+          <NodeParam name="value">0</NodeParam>
+          <NodeParam name="type">number</NodeParam>
+         </NodeKey>
+         <NodeKey name="label">
+          <NodeParam name="value">Horizon KI AGH (pule studenckie)</NodeParam>
+          <NodeParam name="type">string</NodeParam>
+         </NodeKey>
+         <NodeKey name="server">
+          <NodeParam name="value">connection.pcoip.ki.agh.edu.pl</NodeParam>
+          <NodeParam name="type">string</NodeParam>
+         </NodeKey>
+        </NodeDir>
+        <NodeDir name="{b59a7df1-f050-4a8d-b92d-539fdec07454}">
+         <NodeKey name="allowDataSharing">
+          <NodeParam name="value">0</NodeParam>
+          <NodeParam name="type">bool</NodeParam>
+         </NodeKey>
+         <NodeKey name="autoHideMenuBar">
+          <NodeParam name="value">1</NodeParam>
+          <NodeParam name="type">bool</NodeParam>
+         </NodeKey>
+         <NodeKey name="autoReconnect">
+          <NodeParam name="value">0</NodeParam>
+          <NodeParam name="type">bool</NodeParam>
+         </NodeKey>
+         <NodeKey name="autostart">
+          <NodeParam name="value">0</NodeParam>
+          <NodeParam name="type">number</NodeParam>
+         </NodeKey>
+         <NodeKey name="bypassCredManager">
+          <NodeParam name="value">1</NodeParam>
+          <NodeParam name="type">bool</NodeParam>
+         </NodeKey>
+         <NodeKey name="closeAfterRoaming">
+          <NodeParam name="value">1</NodeParam>
+          <NodeParam name="type">bool</NodeParam>
+         </NodeKey>
+         <NodeKey name="credentialsType">
+          <NodeParam name="value">startup</NodeParam>
+          <NodeParam name="type">string</NodeParam>
+         </NodeKey>
+         <NodeKey name="enableCDR">
+          <NodeParam name="value">0</NodeParam>
+          <NodeParam name="type">bool</NodeParam>
+         </NodeKey>
+         <NodeKey name="enableMMR">
+          <NodeParam name="value">1</NodeParam>
+          <NodeParam name="type">bool</NodeParam>
+         </NodeKey>
+         <NodeKey name="hideMenuBar">
+          <NodeParam name="value">1</NodeParam>
+          <NodeParam name="type">bool</NodeParam>
+         </NodeKey>
+         <NodeKey name="iconPosition">
+          <NodeParam name="value"/>
+          <NodeParam name="type">string</NodeParam>
+         </NodeKey>
+         <NodeKey name="label">
+          <NodeParam name="value">PCoIP KI AGH (maszyny pracownicze)</NodeParam>
+          <NodeParam name="type">string</NodeParam>
+         </NodeKey>
+         <NodeKey name="printerMapping">
+          <NodeParam name="value">0</NodeParam>
+          <NodeParam name="type">number</NodeParam>
+         </NodeKey>
+         <NodeKey name="server">
+          <NodeParam name="value">vconnectionview.pcoip.ki.agh.edu.pl</NodeParam>
+          <NodeParam name="type">string</NodeParam>
+         </NodeKey>
+         <NodeKey name="viewSecurityLevel">
+          <NodeParam name="value">Refuse insecure connections</NodeParam>
+          <NodeParam name="type">string</NodeParam>
+         </NodeKey>
+        </NodeDir>
+       </NodeDir>
+      </NodeDir>
+     </NodeDir>
+     <NodeDir name="Dashboard">
+      <NodeDir name="General">
+       <NodeKey name="LengthToScreenSide">
+        <NodeParam name="value">0</NodeParam>
+        <NodeParam name="type">bool</NodeParam>
+       </NodeKey>
+      </NodeDir>
+     </NodeDir>
+    </NodeDir>
+   </Namespace>
+  </ManticoreReg>
+ </ProfileRegistry>
+</Profile>

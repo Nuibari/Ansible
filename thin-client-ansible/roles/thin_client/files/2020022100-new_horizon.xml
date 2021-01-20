@@ -1,0 +1,36 @@
+<Profile>
+ <ProfileSettings>
+  <Name>2020022100-new_horizon</Name>
+  <RegistryRoot>root</RegistryRoot>
+  <Target>
+   <Hardware>t430</Hardware>
+   <ImageId>T7X71018</ImageId>
+   <Version>7.1.0</Version>
+   <Config>zero</Config>
+  </Target>
+ </ProfileSettings>
+ <ProfileRegistry>
+  <ManticoreReg>
+   <Namespace name="root">
+    <NodeDir name="root">
+     <NodeDir name="ConnectionType">
+      <NodeDir name="view">
+       <NodeDir name="connections">
+        <NodeDir name="{ad4c1a43-dc2d-4f8f-bc1f-fa3166119c6f}">
+         <NodeKey name="label">
+          <NodeParam name="value">Horizon KI AGH</NodeParam>
+          <NodeParam name="type">string</NodeParam>
+         </NodeKey>
+         <NodeKey name="server">
+          <NodeParam name="value">connection.pcoip.ki.agh.edu.pl</NodeParam>
+          <NodeParam name="type">string</NodeParam>
+         </NodeKey>
+        </NodeDir>
+       </NodeDir>
+      </NodeDir>
+     </NodeDir>
+    </NodeDir>
+   </Namespace>
+  </ManticoreReg>
+ </ProfileRegistry>
+</Profile>

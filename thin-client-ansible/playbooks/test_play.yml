@@ -1,0 +1,9 @@
+---
+- hosts: all
+  gather_facts: True
+  vars:
+      ansible_become: yes
+      ansible_connection: ssh
+
+  roles:
+    - test_play
